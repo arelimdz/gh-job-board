@@ -12,9 +12,10 @@ function App() {
       {/* Other components */}
 
       <footer>
-        <p>Porwerd by Greenhouse</p>
+        <p>Powered by Greenhouse</p>
         <p>Read our Privacy Policy</p>
       </footer>
+
 
     </div>
   );
