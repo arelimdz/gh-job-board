@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# mx51 API Greenhouse Job Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project description:
 
-## Available Scripts
+This project was commenced as a Hackathon Project for the Coder Academy FEB-23-STD cohort. The original Hackathon code has been refactored and adjusted and is now owned by [mx51 Pty Ltd.](https://mx51.com/).
 
-In the project directory, you can run:
+It is a single-page web application created using the "create-react-app" framework. The application serves as a custom API-driven job board for mx51, utilizing Greenhouse's open APIs. It primarily handles GET requests, with the "Apply" link for each job directing users to Greenhouse-hosted pages, ensuring secure POST requests.
 
-### `npm start`
+## Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The primary purpose of this front-end-only application is to provide an interactive and modern job board for [mx51](https://mx51.com/), offering users the ability to filter job listings based on location, department, or a combination of both. The project aimed to enhance the user experience and bring a contemporary approach to job listings, aligning with the company's efforts to update their website from plain HTML and CSS to a more dynamic and interactive platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation Instructions:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository:**
+   - First, clone this project's repository from GitHub to your local machine using the command:
+     ```
+     git clone https://github.com/yourusername/your-repo-name.git
+     ```
 
-### `npm run build`
+2. **Navigate to Project Directory:**
+   - Use the `cd` command to navigate to the project directory:
+     ```
+     cd your-repo-name
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install Dependencies:**
+   - Run the following command to install all the required modules and dependencies locally:
+     ```
+     npm install
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the Development Build:**
+   - To run the project locally and start a development build, use the following command:
+     ```
+     npm run start
+     ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **View the Application:**
+   - Open your web browser and navigate to `http://localhost:3000` to see the application in action.
+     
 
-### `npm run eject`
+6. **Build for Production (Optional):**
+   - If you wish to create a production build for deployment, use the following command:
+     ```
+     npm run build
+     ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Front-end Framework: React (v18.2.0)**
+  * React-DOM (v18.2.0): React's package for DOM integration.
+  * React-Icons (v4.11.0): A library for adding popular icon sets to React applications.
+  * React-Router-DOM (v6.16.0): A routing library for navigation in React applications.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **Other:**
+  * HTML-to-React (v1.7.0): A library for converting HTML strings into React elements.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Authors
 
-## Learn More
+* [Areli Mendoza](https://github.com/arelimdz)
+* [Katie Lock](https://github.com/katielock92)
+* [Ellen My Pham](https://github.com/ellenpham)
+* [Jessica Liong](https://github.com/jessicacliong)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
